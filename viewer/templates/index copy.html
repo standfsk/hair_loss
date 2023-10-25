@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>탈모 분류</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>마지막 잎새</h1>
+        </div>
+        <div id="content">
+            <div id="upload-section">
+                <h2>이미지 업로드</h2><br>
+                <input type="file" id="image-upload" accept="image/*">
+                <button id="upload-button">Upload</button>
+                <button id="reset-button">Reset</button>
+            </div>
+            <div id="result-section">
+                <h2>Upscaled Image</h2>
+                <img id="upscaled-image" src="" alt="Upscaled Image">
+            </div>
+        </div>
+        <script src="/static/script.js"></script>
+    </body>
+</html>

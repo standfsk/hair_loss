@@ -1,0 +1,89 @@
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, h2, p, ul, li, input, button, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the page title */
+#header h1 {
+    font-size: 36px;
+}
+
+/* Style the content section */
+#content {
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the upload section */
+#upload-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#image-upload {
+    display: none;
+}
+
+#upload-button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the result section */
+#result-section {
+    /* display: none; */
+    text-align: center;
+}
+
+#upscaled-image {
+    display: none;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* 리셋 버튼 */
+#reset-button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: #0056b3;
+}
