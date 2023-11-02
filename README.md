@@ -32,13 +32,13 @@
 
 ## Model
 - CNN(self-implemented)
-  <br><img src="https://github.com/cshyo1004/hair_loss/assets/60250322/b58a2065-9ba2-417d-b059-5b0f18bc70be" width=500>
+  <br><img src="https://github.com/cshyo1004/hair_loss/assets/60250322/a9040304-ddd0-49c7-b2f5-712282255b10" width=500>
 
 - VGG(pre-trained)
-  <br><img src="https://github.com/cshyo1004/hair_loss/assets/60250322/d322b79a-0f01-4ce9-b1f4-8598020d1f85" width=500>
+  <br><img src="https://github.com/cshyo1004/hair_loss/assets/60250322/2ed770eb-d137-4235-a297-fb32f8012fbe" width=500>
 
 - ResNet(pre-trained)
-  <br><img src="https://github.com/cshyo1004/hair_loss/assets/60250322/66cb38da-c923-48ac-854d-4aa4ed36d1d6" width=500>
+  <br><img src="https://github.com/cshyo1004/hair_loss/assets/60250322/d00ab2f4-ef26-4135-b988-d8c0c21aebd8" width=500>
 
 ## Performance
 ### CNN
