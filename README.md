@@ -54,6 +54,7 @@
 
 ### VGG
 * train2 epoch32부터 error 발생으로 인해 loss와 accuracy값 이상
+
 |  | train1 | train2 |
 | --- | --- | --- |
 | batch_size | 32 | 16 |
@@ -82,6 +83,7 @@
 
 ### VGG
 * train2 epoch32부터 error 발생으로 인해 loss와 accuracy값 이상
+
 |  | train1 | train2 |
 | --- | --- | --- |
 | test loss | 0.06 | 18.89 |
