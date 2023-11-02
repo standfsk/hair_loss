@@ -53,7 +53,7 @@
 | val accuracy | 99.82 | 99.82 | 99.64 | 99.94 |
 
 ### VGG
-*epoch32부터 error 발생으로 인해 loss와 accuracy값 이상
+* train2 epoch32부터 error 발생으로 인해 loss와 accuracy값 이상
 |  | train1 | train2 |
 | --- | --- | --- |
 | batch_size | 32 | 16 |
@@ -81,7 +81,7 @@
 | test accuracy | 99.708 | 99.81 | 99.61 | 99.76 |
 
 ### VGG
-*epoch32부터 error 발생으로 인해 loss와 accuracy값 이상
+* train2 epoch32부터 error 발생으로 인해 loss와 accuracy값 이상
 |  | train1 | train2 |
 | --- | --- | --- |
 | test loss | 0.06 | 18.89 |
