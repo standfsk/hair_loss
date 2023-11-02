@@ -1,5 +1,6 @@
 # 탈모 분류 프로젝트
-![image](https://github.com/cshyo1004/hair_loss/assets/60250322/37283546-4dc3-4085-bf5e-45e414525279)
+<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/dd00720e-f756-4f14-898f-7ba2187d38db" width=800>
+
 
 ## 프로젝트 개요
 집에서 간편하게 탈모인지 아닌지 알아보기 위한 솔루션
