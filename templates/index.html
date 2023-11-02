@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>탈모 분류</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>탈모 분류</h1>
+        </div>
+        <div id="content">
+            <div id="upload-section">
+                <input type="file" id="image-upload" accept="image/*">
+                <button id="upload-button">Upload</button>
+                <button id="reset-button">Reset</button>
+                <button id="inference-button">Inference</button>
+            </div>
+            <br><br>
+            <div id="result-section">
+                <div class="box">
+                    <img id="original-image" src="">
+                </div>
+                <div id="arrow">&rarr;</div>
+                <div class="box">
+                    <p id="inference_text"></p>
+                    <p id="inference_num"></p>
+                </div>
+            </div>
+        </div>
+        <script src="/static/script.js"></script>
+    </body>
+</html>
