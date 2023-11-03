@@ -25,11 +25,18 @@
 ### 데이터 전처리
 - 이미지 크기는 (512 x 512)로 조정 / 학습 시 (224 x 224)
 - 이미지 확장자는 .jpg로 변환
-- 기준에 부합하지 않는 데이터 제거
-  
-|정수리가 보이지 않는 경우|두상이 보이지 않는 경우|이미지에 글자가 포함되어 있는 경우|애니매이션 사진인 경우|머리에 손이 닿아있는 경우|
-|---|---|---|---|---|
-|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/938822b4-d1ee-4313-8df8-b9cf782406fd" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/ba9d4ba1-73eb-4988-b6a6-13b9edd02892" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/cd105c7c-e45e-40ca-859e-d0ef3570a273" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/89c7bfa7-ad5e-4847-8019-764f8f52cc8a" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/afb195ff-615a-4346-9c9f-ffaae8284f1c" width=200 height=200>|
+- 기준에 따라 데이터 제거
+  - 제거 기준
+    
+  |정수리가 보이지 않는 경우|두상이 보이지 않는 경우|이미지에 글자가 포함되어 있는 경우|애니매이션 사진인 경우|머리에 손이 닿아있는 경우|
+  |---|---|---|---|---|
+  |<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/938822b4-d1ee-4313-8df8-b9cf782406fd" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/ba9d4ba1-73eb-4988-b6a6-13b9edd02892" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/cd105c7c-e45e-40ca-859e-d0ef3570a273" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/89c7bfa7-ad5e-4847-8019-764f8f52cc8a" width=200 height=200>|<img src="https://github.com/cshyo1004/hair_loss/assets/60250322/afb195ff-615a-4346-9c9f-ffaae8284f1c" width=200 height=200>|
+
+  - 사용 기준
+
+  <img src="https://github.com/cshyo1004/hair_loss/assets/60250322/451a8597-db02-45c9-bb52-ffa4f49b437b" width=200 height=200>
+  <img src="https://github.com/cshyo1004/hair_loss/assets/60250322/06bd8fd7-2de2-4681-b397-b38098fa850e" width=200 height=200>
+  <img src="https://github.com/cshyo1004/hair_loss/assets/60250322/f37856fd-7b98-4f67-829a-ab3240a546c7" width=200 height=200>
 
 ### 데이터 증강
 - 탈모 데이터
