@@ -1,0 +1,9 @@
+- segment anything docker로 api 생성
+- 생성된 api에서 inference 결과 받기
+- segmentation된 부분을 원래 이미지에서 추출하여 저장
+- percentage of color 계산
+- 결과 값 웹 사이트에 전달
+- 결과 화면 확인
+
+기준
+1번 전체 데이터의 평균 비율 값을 기준으로 판별
